@@ -37,7 +37,7 @@ if [ -e "$FILE" ] ; then
     kill -9 `/bin/pidof mother`
     kill -9 `/bin/pidof sleep`
     echo "Clear Completed :)"
-    reboot
+#    reboot
 else
     echo "Clear :) No actions"
     exit
